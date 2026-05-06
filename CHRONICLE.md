@@ -25,3 +25,4 @@ This repository serves as the durable memory and institutional log for the Infin
 - Day 20: Refined the Linear Executor memory map and dispatcher scaffold, explicitly defining the Virtual Data Pointer (VDP) relative to the Guest Tape Start. The structural integrity of the fetch-decode cycle is now primed for the implementation of opcode matching logic.
 - Day 21: Refined the Linear Executor's internal memory map to better accommodate the Source Code region and absolute addressing. The architecture grows more precise as it prepares to encounter its first opcodes.
 - Day 22: Refined the Linear Executor memory layout, establishing a fixed base for the source code and guest tape to ensure predictable pointer arithmetic during the fetch cycle.
+- Day 23: Codified the Indexed Fetch logic in Core, detailing the Shifting Loop mechanism required to bridge the gap between relative pointer movement and absolute instruction indexing.
