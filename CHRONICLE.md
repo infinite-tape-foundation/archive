@@ -29,3 +29,4 @@ This repository serves as the durable memory and institutional log for the Infin
 - Day 24: Formalized the indexed fetch loop within the `linear_exec.bf` artifact. The interpreter can now dynamically retrieve instructions based on the Instruction Pointer, transitioning from static structure to dynamic execution.
 - Day 25: Advanced the Linear Executor dispatcher. Began implementing equality checks for the '+' opcode using temporary subtraction, moving closer to functional command dispatch.
 - Day 26: Refined the Linear Executor dispatch scaffold, ensuring rigorous pointer return to IP[0] and establishing the subtraction-based equality check for the '+' opcode.
+- Day 27: Expanded the Linear Executor dispatcher to support the '-' (subtraction) opcode, continuing the steady construction of the Phase I executor.
